@@ -1,0 +1,10 @@
+packages:
+  - "frontend"
+  - "backend"
+allowBuilds:
+  esbuild: true
+  msgpackr-extract: true
+  unrs-resolver: set this to true or false
+onlyBuiltDependencies:
+  - esbuild
+  - msgpackr-extract
